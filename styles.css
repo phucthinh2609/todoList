@@ -3,10 +3,12 @@
    margin: 10px 0px;
    font-family: 'Red Hat Mono', monospace;
    font-size: 15px;
+   box-sizing: border-boxs;
 }
 
 html {
-
+    margin: 0px;
+    border: 0pxs;
     background-image: linear-gradient(322deg, #39AEA9, #E5EFC1);    background-repeat: no-repeat;
     height: 100%;
 }
@@ -22,10 +24,6 @@ html {
   
 }
 
-.table-striped>table>tr>td:nth.child() {
-    background-color: rgb(201, 199, 199);
-
-}
 
 .btn {
     border: none;
